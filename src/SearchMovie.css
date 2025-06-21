@@ -1,0 +1,31 @@
+/* src/SearchMovie.css */
+.search-container {
+  background-image: url('C:\Users\nanin\OneDrive\Documents\projects\MOVIE BROWSER\MOVIE BROWSER\movie-browser\movie-browser\src\assets\search-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 60px 20px;
+  color: white;
+}
+
+.search-box {
+  background-color: rgba(0, 0, 0, 0.6);
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
